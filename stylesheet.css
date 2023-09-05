@@ -81,19 +81,19 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 h2 {
   margin: 0;
   font-weight: normal;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .papertitle {
@@ -132,4 +132,5 @@ h2 {
 
 span.highlight {
   background-color: #ffffd0;
+  font-size: 30px;
 }
