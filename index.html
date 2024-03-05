@@ -46,7 +46,33 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
-    
+      <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <img src='images/acmmm_1.png' width="190">
+          </div>
+          <script type="text/javascript">
+            function zipnerf_start() {
+              document.getElementById('zipnerf_image').style.opacity = "1";
+            }
+
+            function zipnerf_stop() {
+              document.getElementById('zipnerf_image').style.opacity = "0";
+            }
+            zipnerf_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="">Self-Reference Image Super-Resolution via Pre-trained Diffusion Large Model and Window Adjustable Transformer
+          </a>
+          <p><strong>Guangyuan Li</strong>, Wei Xing*, Lei Zhao*, Zehua Lan, Jiakai Sun, Zhanjie Zhang, Quanwei Zhang, Huaizhong Lin, Zhijie Lin</p>
+          <em>ACM MM</em>, 2023 &nbsp
+          <a href="https://github.com/GuangYuanKK/DWTrans">Code</a>
+          /
+          <a href="">Paper</a>
+        </td>
+      </tr>
+
       <tr onmouseout="zipnerf_stop()" onmouseover="zipnerf_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
